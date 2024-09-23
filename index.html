@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ziuzi.lt</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css"
+    />
+  </head>
+  <body>
+    <div class="modal">
+      <div class="header">
+        <div class="clear">
+          <img src="assets/ziuzi.png" height="30" width="90" alt="odangau logo" style="margin-bottom:-5px;" onclick="drop_table()"/>
+        </div>
+        <div class="header-text">
+        <h3>ziuzi.lt</h3>
+        <label>Užsiregistravo:</label>
+        <p id="countA1" class="count">0</p>
+        </div>
+      </div>
+      <div class="players">
+        <button onclick="add_player_0()" id="0" class="" value="0">0</button>
+        <button onclick="add_player_1()" id="1" class="" value="1">1</button>
+<!--        <button onclick="add_player_2()" id="2" class="" value="2">2</button>-->
+        <button onclick="add_player_3()" id="3" class="" value="3">3</button>
+<!--        <button onclick="add_player_4()" id="4" class="" value="4">4</button>-->
+        <button onclick="add_player_5()" id="5" class="" value="5">5</button>
+<!--        <button onclick="add_player_7()" id="7" class="" value="7">7</button>-->
+        <button onclick="add_player_8()" id="8" class="" value="8">8</button>
+        <button onclick="add_player_9()" id="9" class="" value="9">9</button>
+        <button onclick="add_player_10()" id="10" class="" value="10">10</button>
+<!--        <button onclick="add_player_11()" id="11" class="" value="11">11</button>-->
+        <button onclick="add_player_13()" id="13" class="" value="13">13</button>
+<!--        <button onclick="add_player_14()" id="14" class="" value="14">14</button>-->
+        <button onclick="add_player_15()" id="15" class="" value="15">15</button>
+        <button onclick="add_player_17()" id="17" class="" value="17">17</button>
+        <button onclick="add_player_33()" id="33" class="" value="33">33</button>
+<!--        <button onclick="add_player_42()" id="42" class="" value="42">42</button>-->
+        <button onclick="add_player_55()" id="55" class="" value="55">55</button>
+        <button onclick="add_player_69()" id="69" class="" value="69">69</button>
+        <button onclick="add_player_77()" id="77" class="" value="77">77</button>
+
+
+      </div>
+      <table class="table-a1"></table>
+      <div class="add-todo-a1">
+        <form class="form" autocomplete="off">
+          <input
+            type="text"
+            name="todo"
+            placeholder="Įveskite vardą"
+            required="required"
+            minlength="5"
+            maxlength="22"
+            onkeypress="return /[0-9a-žA-Ž ]/i.test(event.key)"
+          />
+          <button class="btn btn-modal">OK</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div class="edit-modal modal-wrapper">
+      <div class="modal">
+        <div class="modal-header">
+          <p onclick="close_modal()"
+             style="font-size: 20px; cursor: pointer; margin-right:5px;">✖</p>
+        </div>
+        <div class="modal-body">
+          <form class="form" autocomplete="off">
+            <input
+              type="text"
+              name="todo"
+              placeholder="Įveskite vardą"
+              required="required"
+              minlength="5"
+              maxlength="22"
+              onkeypress="return /[0-9a-žA-Ž ]/i.test(event.key)"
+            />
+            <button class="btn btn-modal">OK</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+      apiKey: "AIzaSyAUwlVMfztPTZqGBabv4fldwb3NvpZuxPs",
+      authDomain: "ziuzi-c415f.firebaseapp.com",
+      projectId: "ziuzi-c415f",
+      storageBucket: "ziuzi-c415f.appspot.com",
+      messagingSenderId: "879560264292",
+      appId: "1:879560264292:web:c77a2e314d6fdf20092d71",
+      measurementId: "G-883PJMSWPT"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.firestore();
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
