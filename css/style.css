@@ -15,10 +15,10 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background: rgb(192, 212, 229);;
+  background: rgb(191, 210, 226);
 }
 button {
-  background: #ddd;
+  background: rgb(191, 210, 226);
   border: 0px solid #201d1c;
   border-radius: 10px;
   box-shadow: 0 0 6px #201d1c;
@@ -33,7 +33,7 @@ button {
 button:hover {
   transform: scale(1.05);
   cursor: pointer;
-  background: #ffcccc;
+  background: #cbf7cb;
 }
 
 .btn {
@@ -61,7 +61,7 @@ button:hover {
 }
 .btn-modal:hover {
   transform: scale(1.05);
-  background: #ffcccc;
+  background: #cbf7cb;
   border: none;
   cursor: pointer;
 }
@@ -139,7 +139,7 @@ table th {
   animation-name: animatetop;
   animation-duration: 0.4s;
 }
-.players{
+.players {
   position: relative;
   background: white;
   text-align: center;
@@ -168,13 +168,13 @@ table th {
   padding: 0.5rem;
   border-radius: 10px 10px 0px 0px;
 }
-.header-text{
+.header-text {
   margin-right: 70px;
 }
 .modal-header {
   text-align: right;
   width: 100%;
-  background: #CFD2CF;
+  background: #cfd2cf;
   padding: 0.5rem;
   border-radius: 10px 10px 0px 0px;
 }
@@ -200,7 +200,7 @@ h4 {
 }
 h3 {
   text-align: left;
-  padding-left:10px;
+  padding-left: 10px;
 }
 .disabled {
   opacity: 0.4;
