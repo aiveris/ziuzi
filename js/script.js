@@ -17,6 +17,7 @@ const renderTodoA1 = (doc) => {
       </th>
     </tr>
   `;
+
   tableTodosA1.insertAdjacentHTML("beforeend", tr);
 
   // Click delete to-do
