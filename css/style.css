@@ -167,6 +167,15 @@ a:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
+img {
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s;
+}
+img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
 h4 {
   display: inline-block;
   margin-left: 100px;
