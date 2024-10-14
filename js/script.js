@@ -76,7 +76,7 @@ function add_player_3() {
 }
 function add_player_4() {
   db.collection("a1").add({
-    todo: "Vytautas Rakauskas 4",
+    todo: "Šarūnas Butrimas 4",
   });
 }
 function add_player_5() {
@@ -86,7 +86,7 @@ function add_player_5() {
 }
 function add_player_7() {
   db.collection("a1").add({
-    todo: "Modestas Ulevičius 7",
+    todo: "Evaldas Žemaitis 7",
   });
 }
 function add_player_8() {
@@ -106,7 +106,7 @@ function add_player_10() {
 }
 function add_player_11() {
   db.collection("a1").add({
-    todo: "Tomas Purlys 11",
+    todo: "Karolis Bliodnieks 11",
   });
 }
 function add_player_12() {
@@ -127,6 +127,26 @@ function add_player_14() {
 function add_player_15() {
   db.collection("a1").add({
     todo: "Artūras Simonaitis 15",
+  });
+}
+function add_player_19() {
+  db.collection("a1").add({
+    todo: "Vakaris Stoškus 19",
+  });
+}
+function add_player_23() {
+  db.collection("a1").add({
+    todo: "Justas Sobolevskis 23",
+  });
+}
+function add_player_24() {
+  db.collection("a1").add({
+    todo: "Artūras Šliažas 24",
+  });
+}
+function add_player_27() {
+  db.collection("a1").add({
+    todo: "Mantas Kadzevičius 27",
   });
 }
 function add_player_30() {
@@ -151,14 +171,28 @@ function add_player_55() {
 }
 function add_player_69() {
   db.collection("a1").add({
-    todo: "Mantas Kadzevičius 69",
+    todo: "Raimondas Maslauskas 69",
   });
 }
 function add_player_77() {
   db.collection("a1").add({
-    todo: "Laurynas Ribakas 77",
+    todo: "Donatas Bilius 77",
   });
-  console.log(tr.data - id);
+}
+function add_player_82() {
+  db.collection("a1").add({
+    todo: "Dainius Stoškus 82",
+  });
+}
+function add_player_92() {
+  db.collection("a1").add({
+    todo: "Augustinas Stoškus 92",
+  });
+}
+function add_player_99() {
+  db.collection("a1").add({
+    todo: "Tomas Žiburkus 99",
+  });
 }
 function drop_table() {
   var result = confirm("Want to delete all?");
