@@ -59,11 +59,6 @@ function add_player_0() {
     todo: "Daivaras Lebednykas 0",
   });
 }
-function add_player_1() {
-  db.collection("a1").add({
-    todo: "Jonas Savickas 1",
-  });
-}
 function add_player_2() {
   db.collection("a1").add({
     todo: "Gediminas Petrauskas 2",
@@ -184,6 +179,11 @@ function add_player_82() {
     todo: "Dainius Stoškus 82",
   });
 }
+function add_player_91() {
+  db.collection("a1").add({
+    todo: "Jonas Savickas 91",
+  });
+}
 function add_player_92() {
   db.collection("a1").add({
     todo: "Augustinas Stoškus 92",
@@ -194,8 +194,4 @@ function add_player_99() {
     todo: "Tomas Žiburkus 99",
   });
 }
-function drop_table() {
-  var result = confirm("Want to delete all?");
-  if (result) {
-  }
-}
+
