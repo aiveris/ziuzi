@@ -146,7 +146,7 @@ function add_player_27() {
 }
 function add_player_29() {
   db.collection("a1").add({
-    todo: "Tomas Dzeventauskas 29",
+    todo: "Tomas Dzeventkauskas 29",
   });
 }
 function add_player_30() {
