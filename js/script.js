@@ -152,7 +152,7 @@ function add_player_9() {
   addPlayer("Evaldas Stankevičius 9", "9");
 }
 function add_player_10() {
-  addPlayer("Donatas Bilius 10", "10");
+  addPlayer("Audrius Ramonaitis 10", "10");
 }
 function add_player_11() {
   addPlayer("Daivaras Lebednykas 11", "11");
@@ -200,7 +200,7 @@ function add_player_55() {
   addPlayer("Donatas Bilius 55", "55");
 }
 function add_player_69() {
-  addPlayer("Raimondas Maslauskas 69", "69");
+  addPlayer("Vytautas Kaneckas 69", "69");
 }
 function add_player_77() {
   addPlayer("Rokas Židžiūnas 77", "77");
